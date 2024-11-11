@@ -1,0 +1,181 @@
+body{
+    background-color: #E1D9D1;
+}
+
+
+
+ .nav-item a{
+    
+    font-weight: 400;
+    font-size: 25px;
+
+    
+ 
+}
+
+nav ul li{
+float: left;
+list-style-type: none;
+padding: 10px;
+position: relative;
+}
+
+nav ul li a{
+
+padding: 10px 14px;
+text-decoration: none;
+display: block;
+
+
+}
+
+
+
+nav a {
+    
+    font-size: 25px;
+ }
+
+form.try input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius:5px ;
+  }
+  
+  /* Style the submit button */
+  form.try button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  form.try button:hover {
+    background: gray;
+  }
+  
+  /* Clear floats */
+  form.try::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .navbar-categories{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    letter-spacing: .5;
+    position: relative;
+    
+}
+.navbar-categories:hover{
+    color: black;
+}
+
+
+.navbar-categories:after{
+    content:"";
+    position: absolute;
+    background-color: whitesmoke;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: .3s;
+}
+.navbar-categories:hover:after{
+  width: 50%;
+}
+
+.sidenav {
+  
+    float: left;
+    /* background:rgb(51, 204, 255);*/
+    color: black;
+    font-size: 16px;
+    font-weight: 900;
+    height: 50%;
+
+   
+
+   
+    
+    
+
+
+
+}
+
+.nav-side{
+
+font-weight:500;
+padding-top: 10rem;
+}
+.brands1{
+    background-color: #E1D9D1;
+}
+.brands{
+    transition: all .2s ease;
+    height: 100%;
+
+}
+
+.brands:hover{
+    padding: 5px;
+    border: 3px solid salmon;
+    
+}
+
+
+.product-list{
+    background-color: #E1D9D1 ;
+    display: flex;
+    justify-content: center;
+    
+  
+    
+}
+
+.products-men{
+   
+    
+    transition: all .2s ease;
+}
+
+.products-men:hover{
+    padding: 5px;
+}
+
+.card{
+    height: 22rem
+}
+
+
+.gg-shopping-cart {
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    transform: scale(var(--ggs,1));
+    width: 20px;
+    height: 21px;
+}
+
+.logo-products{
+    height: 200px;
+    transition: .5s  ease;
+    cursor: pointer;
+}
+
+.logo-products:hover{
+    padding: 5px;
+}
