@@ -174,3 +174,52 @@ card-text{
   font-weight: 650;
   letter-spacing: 0.5px;
 }
+
+.container {
+  width: 100%;
+  padding: 0;
+}
+
+.categories {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media only screen and (max-width: 768px){
+  
+}
+
+@media only screen and (max-width: 480px){
+  .navbar{
+    width: 500px;
+    height: 200px;
+  }
+
+  .nav-link{
+    font-size: 25px;
+    position: absolute;
+    bottom: 35%;
+    left: 65%;
+  }
+ 
+  .row {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align the items */
+  }
+
+  .col-2 {
+    width: 100%; /* Make each column take full width */
+    text-align: center; /* Center the text */
+    margin-bottom: 10px; /* Add spacing between items */
+  }
+
+  .categories {
+    font-size: 1rem; /* Adjust font size for mobile */
+    padding: 10px 0; /* Add vertical padding */
+  }
+}
