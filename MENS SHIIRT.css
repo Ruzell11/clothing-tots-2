@@ -94,7 +94,7 @@ form.try input[type=text] {
     transition: .3s;
 }
 .navbar-categories:hover:after{
-  width: 50%;
+  width: 90%;
 }
 
 .sidenav {

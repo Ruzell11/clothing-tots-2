@@ -39,11 +39,15 @@ form.try::after {
   font-weight: 600;
   letter-spacing: .5;
   position: relative;
+  letter-spacing: 0.6px;
+  font-size: 16px;
+  text-transform: uppercase;
 }
 
 .categories:hover {
   color: black;
 }
+
 
 .categories:after {
   content: "";
@@ -57,7 +61,7 @@ form.try::after {
 }
 
 .categories:hover:after {
-  width: 50%;
+  width: 100%;
 }
 
 .ads:hover {
@@ -102,6 +106,8 @@ form.try::after {
   transition: color 0.3s;
   display: flex;
   align-items: center; /* Align vertically */
+   font-weight: 700;
+   letter-spacing: 1px;
 }
 
 .nav-link:hover {
@@ -120,7 +126,7 @@ form.try::after {
   background-color: #343a40; /* Dark background color */
   padding: 30px;
   border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   color: whitesmoke;
   max-width: 400px;
   margin: auto; /* Center align within the column */
@@ -147,4 +153,24 @@ form.try::after {
   color: #adb5bd; /* Lighter color on hover */
 }
 
+.text-end{
+  font-weight: 900;
+}
+card-text{
+  display: flex;
+  justify-content: center;
+}
 
+.p-footer{
+  line-height: 1.3rem;
+  letter-spacing: 0.7px;
+}
+
+.navbar-brand{
+  letter-spacing: 1px;
+}
+
+.p-about{
+  font-weight: 650;
+  letter-spacing: 0.5px;
+}
