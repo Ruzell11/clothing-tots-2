@@ -188,7 +188,12 @@ card-text{
   text-align: center;
   padding: 10px 0;
 }
-
+.icons-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
 @media only screen and (max-width: 768px){
   .navbar{
     width: 800px;
@@ -232,6 +237,13 @@ card-text{
   }
   .title-products{
     text-align: center;
+  }
+
+  .icons-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
   }
  
   .row {
