@@ -217,7 +217,22 @@ padding-top: 10rem;
 
     .mens-options{
         margin-right: 40px;
+        
     }
 
+    .title-container{
+        margin-left: 250px;
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 85px;
+        
+    }
+    .container-p1{
+        margin-left: 100px;
+        
+    }
     
 }
