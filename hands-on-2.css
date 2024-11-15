@@ -210,6 +210,10 @@ card-text{
   }
 }
 
+.all-icons{
+  width: 23px;
+}
+
 @media only screen and (max-width: 480px){
   .navbar{
     width: 500px;
