@@ -190,7 +190,24 @@ card-text{
 }
 
 @media only screen and (max-width: 768px){
-  
+  .navbar{
+    width: 800px;
+    height: 200px;
+  }
+
+  .nav-link{
+    font-size: 35px;
+    position: absolute;
+    bottom: 35%;
+    left: 65%;
+  }
+
+  .container{
+    margin-right: 70px;
+  }
+  .feature-products{
+    margin-right: 100px;
+  }
 }
 
 @media only screen and (max-width: 480px){
@@ -205,8 +222,16 @@ card-text{
     bottom: 35%;
     left: 65%;
   }
+  
+  .container-fetureds{
+    margin-right: 200px;
+  }
+  .title-products{
+    text-align: center;
+  }
  
   .row {
+    
     display: flex;
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center align the items */

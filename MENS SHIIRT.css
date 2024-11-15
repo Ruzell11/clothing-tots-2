@@ -106,13 +106,6 @@ form.try input[type=text] {
     font-weight: 900;
     height: 50%;
 
-   
-
-   
-    
-    
-
-
 
 }
 
@@ -213,3 +206,18 @@ padding-top: 10rem;
     padding: 4px;
 }
 
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 480px){
+    .container-mens-navar{
+        width: 850px;
+    }
+
+    .mens-options{
+        margin-right: 40px;
+    }
+
+    
+}
