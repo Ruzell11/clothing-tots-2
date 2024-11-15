@@ -189,3 +189,35 @@ background-color: yellow;
 position: fixed;
 transform: rotate(80deg);
 }
+
+
+.buy-now-button {
+    padding: 6px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #18191a;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
+
+.buy-now-button i {
+    transition: transform 0.3s ease;
+}
+
+.buy-now-buttonre-button:hover i {
+    transform: translateX(5px);
+}
+
+.buy-now{
+    margin-left: 15px;
+}
+
+.card-body1{
+    padding: 4px;
+}

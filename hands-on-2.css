@@ -1,80 +1,150 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  body{
-      background-color:#E1D9D1 ;
-  }
-  
-
-nav ul li a{
-    color: whitesmoke;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
- nav a {
-    
-     font-size: 30px;
-  }
-
-  form.try input[type=text] {
-    padding: 10px;
-    font-size: 17px;
-    border: 1px solid grey;
-    float: left;
-    width: 80%;
-    background: #f1f1f1;
-    border-radius:5px ;
-  }
-  
-
-  form.try::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-  .categories{
-      text-decoration: none;
-      color: black;
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      font-weight: 600;
-      letter-spacing: .5;
-      position: relative;
-      
-  }
-  .categories:hover{
-      color: black;
-  }
-
-
-  .categories:after{
-      content:"";
-      position: absolute;
-      background-color: black;
-      height: 3px;
-      width: 0;
-      left: 0;
-      bottom: -10px;
-      transition: .3s;
-  }
-  .categories:hover:after{
-    width: 50%;
-  }
-
-.ads:hover{
-   padding: 5px;
-   transition: .5s;
-   cursor: pointer;
+body {
+  background-color: #E1D9D1;
 }
 
-.poster{
-    border-radius: 50%;
+nav ul li a {
+  color: whitesmoke;
 }
 
-.card:hover{
-    padding: 2px;
-    transition: .3s;
+nav a {
+  font-size: 30px;
 }
+
+form.try input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+form.try::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.categories {
+  text-decoration: none;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: .5;
+  position: relative;
+}
+
+.categories:hover {
+  color: black;
+}
+
+.categories:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: .3s;
+}
+
+.categories:hover:after {
+  width: 50%;
+}
+
+.ads:hover {
+  padding: 5px;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.poster {
+  border-radius: 50%;
+}
+
+.card:hover {
+  padding: 2px;
+  transition: .3s;
+}
+
+/* Navbar container styling */
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Right-aligned navbar links styling */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-link {
+  white-space: nowrap;
+}
+
+/* Unified Navbar link styling */
+.nav-link {
+  color: whitesmoke;
+  font-size: 20px; /* Set a single consistent size */
+  margin: 0 15px; /* Spacing between links */
+  text-decoration: none;
+  transition: color 0.3s;
+  display: flex;
+  align-items: center; /* Align vertically */
+}
+
+.nav-link:hover {
+  color: #FFD700; /* Yellow on hover */
+}
+
+/* Hover effects */
+.nav-item:hover .nav-link {
+  color: #FFD700;
+}
+
+
+
+/* Login card container */
+.login-card {
+  background-color: #343a40; /* Dark background color */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  color: whitesmoke;
+  max-width: 400px;
+  margin: auto; /* Center align within the column */
+}
+
+/* Title styling */
+.login-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+/* Form controls */
+.login-card .form-control {
+  width: 100%; /* Make inputs full-width within the container */
+  margin-bottom: 15px;
+}
+
+/* Signup link styling */
+.login-card a {
+  color: #f8f9fa;
+}
+
+.login-card a:hover {
+  color: #adb5bd; /* Lighter color on hover */
+}
+
 
